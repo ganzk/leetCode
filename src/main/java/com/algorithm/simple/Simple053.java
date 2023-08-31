@@ -30,6 +30,38 @@ public class Simple053 {
         Simple053 simple = new Simple053();
     }
 
+
+    /**
+     * 简单解法
+     * 循环遍历数组中所有的子数组，找到最大值。
+     * @param nums
+     * @return
+     */
+//    public int maxSubArray1(int[] nums) {
+//
+//        int sum = nums[0];
+//        for(int i = 1;i <nums.length + 1;i ++){
+//            int temp = nums.length / i;
+//            for (int j = 0; j < temp; j++) {
+//                int t = 0;
+//                for (int k = 0; k < i; k++) {
+//                    if(sum > ){
+//
+//                    }
+//                }
+//            }
+//        }
+//
+//        return 0;
+//    }
+
+
+
+    /**
+     * 分治
+     * @param nums
+     * @return
+     */
     public int maxSubArray(int[] nums) {
 
         // 继续进行
@@ -59,5 +91,7 @@ public class Simple053 {
 
         return 0;
     }
+
+
 
 }

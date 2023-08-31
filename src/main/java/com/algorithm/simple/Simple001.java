@@ -24,11 +24,13 @@ public class Simple001 {
     public static void main(String[] args) {
         Simple001 simple =  new Simple001();
         int[] sums = new int[]{2, 7, 11, 15};
-        int target = 9;
+        int target = 26;
 
 //        int[] ints = simple.twoSum01(sums, target);
 
-        int[] ints = simple.twoSum02(sums, target);
+//        int[] ints = simple.twoSum02(sums, target);
+
+        int[] ints = simple.twoSum03(sums, target);
 
         if(ints != null){
             System.out.println(ints[0] + "," + ints[1]);
@@ -68,6 +70,31 @@ public class Simple001 {
                 map.put(nums[i],i);
             }
         }
+        return null;
+    }
+
+    /**
+     * 单指针滑动  map方法的解释版
+     */
+    public int[] twoSum03(int[] nums, int target){
+
+        for (int i = 0; i < nums.length; i++) {
+            for(int j =0; j < i; j ++){  // 因为hashMap的特性  所以就不用再去找了
+                if(nums[i] == nums[j]){
+                    return new int[]{j,i};
+                }
+            }
+            nums[i] = target - nums[i];
+        }
+        return null;
+    }
+
+
+
+    // 三数之和
+    public int[] twoSum04(int[] nums, int target){
+
+
         return null;
     }
 
