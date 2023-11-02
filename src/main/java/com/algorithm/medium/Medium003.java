@@ -25,6 +25,11 @@ public class Medium003 {
         System.out.println(abca);
     }
 
+    /**
+     * 滑动窗口
+     * @param s
+     * @return
+     */
     public static int lengthOfLongestSubstring(String s) {
         // 记录字符上一次出现的位置
         int[] last = new int[128];

@@ -27,11 +27,27 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../algorithm/leetcode/editor/cn/[58]Length of Last Word.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../../algorithm/leetcode/editor/cn/[58]Length of Last Word.java" />
+              <option name="questionId" value="58" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../algorithm/leetcode/editor/cn/[5]最长回文子串.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../../algorithm/leetcode/editor/cn/[5]最长回文子串.java" />
               <option name="questionId" value="5" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../algorithm/leetcode/editor/cn/[67]二进制求和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../../algorithm/leetcode/editor/cn/[67]二进制求和.java" />
+              <option name="questionId" value="67" />
             </LeetcodeEditor>
           </value>
         </entry>

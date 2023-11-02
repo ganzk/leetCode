@@ -4,9 +4,9 @@ package com.algorithm.simple;
  *
  *
  * @author Gan
- * @date 2020-11-17
- * @description 第一题
- * @url https://leetcode-cn.com/problems/two-sum
+ * @date 2023-11-2
+ * @description 第题
+ * @url
  */
 public class Simple000 {
 
